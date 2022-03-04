@@ -5,4 +5,4 @@ function loadGround() {
   document.getElementById('ground').innerHTML = groundTriple;
 }
 
-window.onload = loadGround;
+//window.onload = loadGround;

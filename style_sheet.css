@@ -64,6 +64,9 @@ body{
 #player{
   position: absolute;
   color: white;
+  text-align: center;
+  left: 50%;
+  top: 50%;
 }
 
 /* GROUND */
@@ -71,4 +74,5 @@ body{
   position: absolute;
   bottom: 0;
   left: 0;
+  text-decoration: overline;
 }
