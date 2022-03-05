@@ -56,17 +56,32 @@ body{
   position: absolute;
 }
 
+#above_ground{
+  width: 624px;
+  height: 393px;
+}
+
 .content{
   margin: 0;
 }
 
 /* PLAYER */
+.player_box{
+  position: relative;
+  color: white;
+  width: 12.9px;
+  max-width: 12.9px;
+  height: 56.5px;
+  max-height: 56.5px;
+  top: 343px;
+}
+.player_box:hover{
+  cursor: pointer;
+}
+
 #player{
   position: absolute;
-  color: white;
   text-align: center;
-  left: 50%;
-  top: 50%;
 }
 
 /* GROUND */

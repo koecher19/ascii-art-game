@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="./style_sheet.css">
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <div id="game_title">
@@ -74,14 +75,18 @@
       <!-- everything within the borders: -->
       <div id="content_frame">
 
-        <!-- player -->
-        <p id="player" class="content">
-          <b>
-            o<br>
-           /|\<br>
-           / \<br>
-          </b>
-        </p>
+        <div id="above_ground">
+          <!-- player -->
+          <div class="player_box" onclick="changePlayerPos()">
+            <p id="player" class="content">
+              <b>
+                o<br>
+               /|\<br>
+               / \<br>
+              </b>
+            </p>
+          </div>
+        </div>
 
         <!-- ground -->
         <p id="ground" class="content">
@@ -95,5 +100,4 @@
     </div>
 
   </body>
-  <script type="text/javascript" src="script.js"></script>
 </html>
